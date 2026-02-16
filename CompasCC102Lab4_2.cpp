@@ -39,8 +39,9 @@ int main() {
 
         } while(choice == 'y' || choice == 'Y');
 
-
-        cout << "\nProduct\t1\t2\t3\t4\tTotal\n";
+        cout << "\n---------------------------------------------\n";
+        cout << "Product\t1\t2\t3\t4\tTotal\n";
+        cout << "---------------------------------------------\n";
 
         float grandTotal = 0;
 
@@ -57,6 +58,7 @@ int main() {
             grandTotal += rowTotal;
         }
 
+        cout << "---------------------------------------------\n";
         cout << "Total\t";
         for(int j = 0; j < 4; j++) {
             float colTotal = 0;
@@ -67,6 +69,7 @@ int main() {
         }
 
         cout << grandTotal << endl;
+        cout << "---------------------------------------------\n";
 
         cout << "\nD you want to repeat? (y/n): ";
         cin >> decision;
@@ -75,3 +78,4 @@ int main() {
 
     return 0;
 }
+
