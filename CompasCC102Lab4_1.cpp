@@ -40,12 +40,13 @@ int main(){
 
             average[i] = sum / (float)quizzes;
         }
-
+        cout << "\n---------------------------------------------\n";
         cout << "\nStudent\t";
         for(int j = 0; j < quizzes; j++) {
             cout << "Q" << j + 1 << "\t";
         }
         cout << "Average\n";
+        cout << "---------------------------------------------\n";
 
         for(int i = 0; i < students; i++) {
             cout << i + 1 << "\t";
@@ -55,6 +56,8 @@ int main(){
             cout << average[i] << endl;
         }
 
+        cout << "---------------------------------------------\n";
+    
         cout << "\nDo you want to repeat? ('Y'/'y'): ";
         cin >> decision;
 
@@ -62,4 +65,5 @@ int main(){
     
 
     return 0;
+
 }
