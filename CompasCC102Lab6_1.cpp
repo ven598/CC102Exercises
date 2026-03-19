@@ -1,6 +1,6 @@
 //PROBLEM 1
 //Full Name: Vennice Jayne Micka Garcing Compas
-//My full name is an even number
+//My full name is an even number, it has 30 characters
 
 #include <iostream>
 #include <string>
